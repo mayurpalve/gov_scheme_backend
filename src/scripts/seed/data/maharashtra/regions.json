@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Vidarbha",
+    "code": "VIDARBHA"
+  },
+  {
+    "name": "Marathwada",
+    "code": "MARATHWADA"
+  },
+  {
+    "name": "Konkan",
+    "code": "KONKAN"
+  },
+  {
+    "name": "Western Maharashtra",
+    "code": "WESTERN_MAHARASHTRA"
+  },
+  {
+    "name": "North Maharashtra",
+    "code": "NORTH_MAHARASHTRA"
+  }
+]

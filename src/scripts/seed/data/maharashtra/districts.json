@@ -1,0 +1,49 @@
+[
+
+  { "name": "Pune", "code": "PUNE", "divisionCode": "PUNE" },
+  { "name": "Satara", "code": "SATARA", "divisionCode": "PUNE" },
+  { "name": "Sangli", "code": "SANGLI", "divisionCode": "PUNE" },
+  { "name": "Kolhapur", "code": "KOLHAPUR", "divisionCode": "PUNE" },
+  { "name": "Solapur", "code": "SOLAPUR", "divisionCode": "PUNE" },
+
+
+  { "name": "Nashik", "code": "NASHIK", "divisionCode": "NASHIK" },
+  { "name": "Ahmednagar", "code": "AHMEDNAGAR", "divisionCode": "NASHIK" },
+  { "name": "Dhule", "code": "DHULE", "divisionCode": "NASHIK" },
+  { "name": "Jalgaon", "code": "JALGAON", "divisionCode": "NASHIK" },
+  { "name": "Nandurbar", "code": "NANDURBAR", "divisionCode": "NASHIK" },
+
+ 
+  { "name": "Mumbai City", "code": "MUMBAI_CITY", "divisionCode": "KONKAN" },
+  { "name": "Mumbai Suburban", "code": "MUMBAI_SUBURBAN", "divisionCode": "KONKAN" },
+  { "name": "Thane", "code": "THANE", "divisionCode": "KONKAN" },
+  { "name": "Palghar", "code": "PALGHAR", "divisionCode": "KONKAN" },
+  { "name": "Raigad", "code": "RAIGAD", "divisionCode": "KONKAN" },
+  { "name": "Ratnagiri", "code": "RATNAGIRI", "divisionCode": "KONKAN" },
+  { "name": "Sindhudurg", "code": "SINDHUDURG", "divisionCode": "KONKAN" },
+
+
+  { "name": "Aurangabad", "code": "AURANGABAD", "divisionCode": "AURANGABAD" },
+  { "name": "Jalna", "code": "JALNA", "divisionCode": "AURANGABAD" },
+  { "name": "Beed", "code": "BEED", "divisionCode": "AURANGABAD" },
+  { "name": "Osmanabad", "code": "OSMANABAD", "divisionCode": "AURANGABAD" },
+  { "name": "Latur", "code": "LATUR", "divisionCode": "AURANGABAD" },
+  { "name": "Nanded", "code": "NANDED", "divisionCode": "AURANGABAD" },
+  { "name": "Parbhani", "code": "PARBHANI", "divisionCode": "AURANGABAD" },
+  { "name": "Hingoli", "code": "HINGOLI", "divisionCode": "AURANGABAD" },
+
+
+  { "name": "Amravati", "code": "AMRAVATI", "divisionCode": "AMRAVATI" },
+  { "name": "Akola", "code": "AKOLA", "divisionCode": "AMRAVATI" },
+  { "name": "Washim", "code": "WASHIM", "divisionCode": "AMRAVATI" },
+  { "name": "Buldhana", "code": "BULDHANA", "divisionCode": "AMRAVATI" },
+  { "name": "Yavatmal", "code": "YAVATMAL", "divisionCode": "AMRAVATI" },
+
+
+  { "name": "Nagpur", "code": "NAGPUR", "divisionCode": "NAGPUR" },
+  { "name": "Wardha", "code": "WARDHA", "divisionCode": "NAGPUR" },
+  { "name": "Chandrapur", "code": "CHANDRAPUR", "divisionCode": "NAGPUR" },
+  { "name": "Gadchiroli", "code": "GADCHIROLI", "divisionCode": "NAGPUR" },
+  { "name": "Bhandara", "code": "BHANDARA", "divisionCode": "NAGPUR" },
+  { "name": "Gondia", "code": "GONDIA", "divisionCode": "NAGPUR" }
+]

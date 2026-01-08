@@ -1,0 +1,8 @@
+[
+  { "name": "Pune Division", "code": "PUNE" },
+  { "name": "Nashik Division", "code": "NASHIK" },
+  { "name": "Nagpur Division", "code": "NAGPUR" },
+  { "name": "Amravati Division", "code": "AMRAVATI" },
+  { "name": "Aurangabad Division", "code": "AURANGABAD" },
+  { "name": "Konkan Division", "code": "KONKAN" }
+]

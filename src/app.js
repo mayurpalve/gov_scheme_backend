@@ -5,6 +5,13 @@ import morgan from "morgan";
 
 import { errorHandler } from "./middlewares/error.middleware.js";
 import rateLimiter from "./middlewares/rateLimit.middleware.js";
+import authRoutes from "./modules/auth/auth.routes.js";
+import userRoutes from "./modules/user/user.routes.js";
+import departmentRoutes from "./modules/master/department/department.routes.js";
+import divisionRoutes from "./modules/master/division/division.routes.js";
+import districtRoutes from "./modules/master/district/district.routes.js";
+import talukaRoutes from "./modules/master/taluka/taluka.routes.js";
+import regionRoutes from "./modules/master/region/region.routes.js";
 
 const app = express();
 
@@ -27,5 +34,21 @@ app.get("/health", (req, res) => {
 
 // Error handler (must be last)
 app.use(errorHandler);
+
+
+app.use("/api/auth", authRoutes);
+
+app.use("/api/users", userRoutes);
+
+app.use("/api/masters/departments", departmentRoutes);
+
+app.use("/api/masters/divisions", divisionRoutes);
+
+app.use("/api/masters/districts", districtRoutes);
+
+app.use("/api/masters/talukas", talukaRoutes);
+
+app.use("/api/masters/regions", regionRoutes);
+
 
 export default app;
