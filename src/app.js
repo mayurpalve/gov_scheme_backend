@@ -12,7 +12,9 @@ import divisionRoutes from "./modules/master/division/division.routes.js";
 import districtRoutes from "./modules/master/district/district.routes.js";
 import talukaRoutes from "./modules/master/taluka/taluka.routes.js";
 import regionRoutes from "./modules/master/region/region.routes.js";
-
+import schemeRoutes from "./modules/scheme/scheme.routes.js";
+import schemeDefinitionRoutes from "./modules/schemeDefinition/schemeDefinition.routes.js";
+import schemeAnswerRoutes from "./modules/schemeAnswer/schemeAnswer.routes.js";
 const app = express();
 
 // Security
@@ -49,6 +51,15 @@ app.use("/api/masters/districts", districtRoutes);
 app.use("/api/masters/talukas", talukaRoutes);
 
 app.use("/api/masters/regions", regionRoutes);
+
+app.use("/api/schemes", schemeRoutes);
+
+app.use("/api/scheme-definitions",schemeDefinitionRoutes);
+
+
+
+app.use("/api/scheme-answers", schemeAnswerRoutes);
+
 
 
 export default app;
