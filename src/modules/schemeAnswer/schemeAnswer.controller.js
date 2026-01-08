@@ -4,6 +4,8 @@ import { validateAnswerData } from "./validateAnswer.service.js";
 import { canUserFillScheme } from "../schemeDefinition/schemeAccess.service.js";
 import { ApiResponse } from "../../utils/ApiResponse.js";
 import { ApiError } from "../../utils/ApiError.js";
+import { checkDuplicateAnswer } from "./checkDuplicate.service.js";
+
 
 export const createSchemeAnswer = async (req, res, next) => {
   try {
@@ -41,6 +43,12 @@ export const createSchemeAnswer = async (req, res, next) => {
       filledBy: req.user?._id || null,
       source
     });
+ // 🔒 Duplicate check (Phase 5.2)
+await checkDuplicateAnswer({
+  schemeId,
+  definition,
+  data
+});
 
     res.status(201).json(
       new ApiResponse(
@@ -53,3 +61,5 @@ export const createSchemeAnswer = async (req, res, next) => {
     next(err);
   }
 };
+
+
